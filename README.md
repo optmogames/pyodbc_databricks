@@ -1,5 +1,5 @@
 # pyodbc_databricks
-Resolver o Erro</br>
+Como resolvi o erro de conexão do pyodbc no dadabricks com o sql azure</br>
 Informações de erro: SQLSTATE: 01000 Código: 0 Mensagem: [unixODBC] [Gerenciador de driver] Não é possível abrir lib 'ODBC Driver 17 para SQL Server': arquivo não encontrado
 </br></br>
 # instale o pip3
@@ -8,7 +8,7 @@ sudo apt-get -y install python3-pip</br>
 sudo pip install --upgrade pip</br>
 sudo apt-get update</br></br>
 
-# instalei via codigo o pyodb
+# instale via codigo o pyodb
 %sh    </br>
 apt-get -y install unixodbc-dev</br>
 /databricks/python/bin/pip install pyodbc</br></br>
