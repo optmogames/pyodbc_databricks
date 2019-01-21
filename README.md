@@ -17,7 +17,7 @@ apt-get -y install unixodbc-dev</br>
 sudo apt-get install python3-pip -y</br>
 pip3 install --upgrade pyodbc</br></br>
 
-#ver a versão do linus instalado</br></br>
+# ver a versão do linus instalado</br></br>
 %sh</br>
 cat /etc/*-release</br></br>
 
