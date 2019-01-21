@@ -33,12 +33,12 @@ curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list > /etc/apt/sou
 
 sudo apt-get update</br>
 sudo ACCEPT_EULA=Y apt-get install msodbcsql17</br>
-# optional: for bcp and sqlcmd</br></br>
+</br></br>
 sudo ACCEPT_EULA=Y apt-get install mssql-tools</br>
 echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile</br>
 echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc</br>
 source ~/.bashrc</br></br>
-# optional: for unixODBC development headers</br></br>
+</br></br>
 sudo apt-get install unixodbc-dev</br></br></br>
 
 # valida seu drive</br></br>
