@@ -1,11 +1,11 @@
 # pyodbc_databricks
 Informações de erro: SQLSTATE: 01000 Código: 0 Mensagem: [unixODBC] [Gerenciador de driver] Não é possível abrir lib 'ODBC Driver 17 para SQL Server': arquivo não encontrado
-
-#instale o pip3
-%sh
-sudo apt-get -y install python3-pip
-sudo pip install --upgrade pip
-sudo apt-get update
+</br>
+#instale o pip3 </br>
+%sh</br>
+sudo apt-get -y install python3-pip</br>
+sudo pip install --upgrade pip</br>
+sudo apt-get update</br>
 
 #instalei via codigo o pyodb
 %sh    
